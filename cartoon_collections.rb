@@ -4,8 +4,8 @@ def roll_call_dwarves(names)
 end
 end
 
-def summon_captain_planet(elements)
-  elements.each.collect do |type| 
+def summon_captain_planet(planteer_calls)
+  planteer_calls.each.collect do |type| 
     puts "#{type.capitalize}!"
 end
 end 
