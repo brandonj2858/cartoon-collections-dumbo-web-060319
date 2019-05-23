@@ -22,3 +22,4 @@ def find_the_cheese(flavor)
   flavors.find? do |types|
     types.include?(flavor)
 end
+end
