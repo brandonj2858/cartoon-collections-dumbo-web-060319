@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(elements)
-  elements.each.collect {|type| type.capitalize
+  elements.each.collect {|type| type.capitalize}
 end
 
 def long_planeteer_calls# code an argument here
