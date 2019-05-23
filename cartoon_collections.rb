@@ -5,8 +5,8 @@ end
 end
 
 def summon_captain_planet(planteer_calls)
-  planteer_calls.each.map do |type| 
-    puts "#{type.capitalize}!"
+  planteer_calls.each.map do |w| 
+    puts "#{w.capitalize}!"
 end
 end 
 
